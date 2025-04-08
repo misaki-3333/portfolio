@@ -1,0 +1,264 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    background-color: #FAF7F5;
+    font-family: "filmotype-palace", sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    /* padding-top: 30px; */
+    overflow: hidden;
+}
+#Fv-logo{
+    width: 168px;
+    height: 100px;
+padding-left: 100px;
+    float: left;
+}
+#nav ul{
+    float: right;
+    width: 670px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    }
+ a{
+    text-decoration: none;
+    color: #000;
+ }
+ #nav a:hover{
+    text-decoration: none;
+    color: #E3D6CE;
+    transition: 0.3s;
+ }
+/* #FV-img{
+    width: 100%;
+    height: 500px;
+} */
+
+    #about-title{
+        margin: 100px 0 -55px 100px;
+  width: 724px;
+  height: 124px;
+}
+    #about-text{
+        margin: 100px 0 0 100px;
+  width: 796px;
+  height: 300px;
+  letter-spacing: 1px;
+  line-height: 2;
+  color: #111;
+    }
+    .about-text-img{
+        display: flex;
+    }
+#about-img{
+    margin-right: 100px;
+    clear: both;
+    float: right;
+    opacity: 0.2s;
+   transition: 1s;
+}
+#about-button{
+    float: right;
+    margin: 60px 360px 80px 0;
+}
+#about-button a:hover{
+    text-decoration: none;
+    color: #E3D6CE;
+    transition: 0.3s;
+ }
+
+#studio-title{
+  clear: both;
+  width: 635px;
+  height: 80px;
+  margin-bottom: 80px;
+  display: block;
+  margin-left: 100px;
+}
+.studio{
+    clear: both;
+    background-color: #E3D6CE;
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+}
+#studio-text{ 
+  padding-top: 35px;
+  width: 650px;
+  height: 300px;
+  letter-spacing: 1px;
+  line-height: 2;
+  color: #111;
+} 
+#studio-img{
+    clear: both;
+    float: left;
+    margin: 100px 0 0 100px;
+}
+
+.studio-text-img{
+    background-color: #E3D6CE;
+    clear: both;
+    display: flex;
+}
+#studio-button{
+   margin: 50px;
+   margin-left: auto;
+   margin-right: auto;
+    width: 200px;
+}
+.studio-textp{
+    clear: both;
+    margin-left: 20px;
+}
+
+table{
+    margin: 60px auto;
+    width: 900px;
+    height: 400px;
+    border: #111 1px solid;
+}
+#plan-title{
+    margin-top: 100px;
+    text-align: center;
+}
+#kikan{
+    margin: 60px auto;
+}
+.plan-td{
+background-color: #F8DEC7;
+text-align: center;
+font-size: 38px;
+}
+.plan-price{
+    text-align: center;
+    font-size: 42px;
+}
+.plan-price a{
+    font-size: 30px;
+}
+.plan-td a{
+    font-size: 30px;
+}
+#Plan-hyou p{
+    font-size: 28px;
+}
+#Plan-hyou{
+ align-items: center;
+}
+#plan-title,#kikan,#Plan-hyou{
+   text-align: center;
+}
+#kikan img{
+    width :700px;
+    height :300px;
+}
+#taiken{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#taiken img{
+    width: 400px;
+    height :70px;
+}
+.INSTRUCTOR{
+    background-color: #E3D6CE;
+    padding: 50px 0;
+}
+#instructor-title{
+    margin-top: 30px;
+text-align: center;
+}
+#instructor-imgs{
+display: flex;
+justify-content: space-evenly;
+margin-top: 50px;
+}
+#Access-title{
+    text-align: center;
+    margin: 100px 0 70px 0;
+}
+#Access-map{
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+#access-text{
+    float: right;
+  font-size: 18px;
+  line-height: 3;
+  margin: 50px 200px 0 0;
+  width: 500px;
+  height: 300px;
+}
+.access-texta{
+    font-size: 25px;
+}
+footer{
+    background-color: #E3D6CE;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+#footer-nav{
+    display: flex;
+    margin-left: 100px;
+}
+#footer-logo{
+    margin-top: 10px;
+margin-left: 50px;
+}
+#footer-nav ul{
+    margin-left: 170px;
+    width: 550px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    }
+    #footer-nav ul li{
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+ a{
+    text-decoration: none;
+    color: #000;
+ }
+ #footer-nav a:hover{
+    text-decoration: none;
+    color: #E3D6CE;
+    transition: 0.3s;
+ }
+ #footer-btn{
+    margin: 59px 100px 10px -190px;
+ }
+ #footer-btn img{
+    width: 19s0px;
+    height: 40px;
+ }
+ .access-texta-right{
+    margin-left: 80px;
+ }
+ footer p{
+   display: block;
+   margin-top: 60px;
+ }
+ #icons ul li img{
+    width: 30px;
+    height: 30px;
+ }
+ #icons ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 0 80px;
+ }
